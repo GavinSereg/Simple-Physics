@@ -15,7 +15,7 @@ BUILD_DIR = build/debug
 CC = gcc
 SRC_FILES = $(wildcard $(SRC_DIR)/physics.c)
 OBJ_NAME = physics
-INCLUDE_PATHS = -Iinclude
+INCLUDE_PATHS = -Iincludes
 LIBRARY_PATHS = -L/opt/homebrew/Cellar/sdl2/2.30.11/lib/ -L/opt/homebrew/Cellar/sdl2_image/2.8.4/lib -L/opt/homebrew/Cellar/sdl2_ttf/2.24.0/lib
 COMPILER_FLAGS = -std=c17 -Wall -O0 -g
 LINKER_FLAGS = -lsdl2
