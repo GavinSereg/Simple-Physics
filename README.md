@@ -1,4 +1,4 @@
-- Physics.c is a program built using SDL2. You can find their site, and documentation at [https://www.libsdl.org/]
+- This program is built using SDL2. You can find their site, and documentation at [https://www.libsdl.org/]
 
 - This program was built to learn Cmake, SDL2, and implementing gravity/velocity with code.
 - I used points on the screen to draw mutiple balls. The balls are dynamic, changing their x and y values based on collisions with walls. Ideally, I would like to continue this program furthur by detecting other collisions with other balls. I may also add a feature to not spawn a ball in the same region as another.
